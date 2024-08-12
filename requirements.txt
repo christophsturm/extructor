@@ -3,6 +3,6 @@ uvicorn==0.30.5
 extruct~=0.17.0
 requests~=2.32.3
 pydantic~=2.8.2
-jinja2
-pytest
-httpx
+jinja2~=3.1.4
+pytest~=8.3.2
+httpx~=0.27.0
