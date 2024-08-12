@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af45d78b-9617-445d-8ae3-858a9f7f6f1a" name="Changes" comment="empty fastapi project created by idea">
-      <change afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-main.py" afterDir="false" />
+    <list default="true" id="af45d78b-9617-445d-8ae3-858a9f7f6f1a" name="Changes" comment="extracting works and we have a form to try it out">
+      <change afterPath="$PROJECT_DIR$/convert.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test-main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="FastAPI.extruct-web">
+  <component name="RunManager" selected="Python tests.Python tests in test-main.py">
     <configuration name="test_main | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/test_main.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -139,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1723463830115</updated>
       <workItem from="1723463839370" duration="859000" />
-      <workItem from="1723464703358" duration="1067000" />
+      <workItem from="1723464703358" duration="5765000" />
     </task>
     <task id="LOCAL-00001" summary="empty fastapi project created by idea">
       <option name="closed" value="true" />
@@ -149,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723463878346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="extracting works and we have a form to try it out">
+      <option name="closed" value="true" />
+      <created>1723466065120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723466065120</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,10 +164,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="empty fastapi project created by idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="empty fastapi project created by idea" />
+    <MESSAGE value="extracting works and we have a form to try it out" />
+    <option name="LAST_COMMIT_MESSAGE" value="extracting works and we have a form to try it out" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/extruct_web$.coverage" NAME=" Coverage Results" MODIFIED="1723465794251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/extruct_web$.coverage" NAME=" Coverage Results" MODIFIED="1723471834449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/extruct_web$main.coverage" NAME="main Coverage Results" MODIFIED="1723465639974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/extruct_web$extruct_web.coverage" NAME="extruct-web Coverage Results" MODIFIED="1723465806584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>

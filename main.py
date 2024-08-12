@@ -6,6 +6,9 @@ from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel, HttpUrl
 import extruct
 import requests
+
+from convert import find_products_and_offers
+
 app = FastAPI()
 
 
@@ -32,7 +35,7 @@ async def extract_microformats(url: HttpUrl):
         data = extruct.extract(html_content, base_url=str(url),
                                syntaxes=['microdata', 'json-ld', 'opengraph', 'microformat'])
 
-        return data
+        return find_products_and_offers(data)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

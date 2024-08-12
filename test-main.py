@@ -11,12 +11,14 @@ def test_home():
 
 def test_extract():
     # Using a known URL that should return some microformat data
-    response = client.get('/extract?url=https://schema.org/')
+    # canyon grail yay
+    response = client.get('/extract?url=https%3A%2F%2Fwww.canyon.com%2Fde-at%2Fgravel-bikes%2Fperformance%2Fgrail%2Fcf-slx%2Fgrail-cf-slx-8-axs%2F3580.html')
     assert response.status_code == 200
-    assert response.json() is not None
-    assert isinstance(response.json(), dict)
+    json = response.json()
+    assert json is not None
+    assert isinstance(json, list)
     # Check if at least one of the expected keys is in the response
-    assert any(key in response.json() for key in ['json-ld', 'microdata', 'opengraph', 'microformat'])
+    assert json[0].get("type") == "Product"
 
 def test_extract_invalid_url():
     response = client.get('/extract?url=not_a_valid_url')
