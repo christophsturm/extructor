@@ -1,5 +1,5 @@
 fastapi==0.112.1
-uvicorn==0.30.5
+uvicorn==0.30.6
 extruct~=0.17.0
 requests~=2.32.3
 pydantic~=2.8.2
