@@ -5,7 +5,7 @@ description = "my extruct web service"
 requires-python = ">=3.11"
 
 dependencies = [
-    "fastapi==0.114.2",
+    "fastapi==0.115.0",
     "uvicorn==0.30.6",
 ]
 
