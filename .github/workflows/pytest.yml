@@ -23,7 +23,7 @@ jobs:
       run: pytest test*.py
 
     - name: Upload pytest results
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: pytest-results
         path: pytest.xml
